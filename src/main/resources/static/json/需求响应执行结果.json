@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "requestId": null,
+  "time": "2019-11-21 09:45:15",
+  "code": 200,
+  "success": true,
+  "message": "需求响应预案列表",
+  "data": [
+    {
+      "name":"目标负荷(kVA)",
+      "value": 343
+    },
+    {
+      "name":"削减负荷(kVA)",
+      "value": 365
+    },{
+      "name":"补贴金额(元)",
+      "value": 1242
+    },{
+      "name":"执行时间(分钟)",
+      "value": 45
+    }
+  ],
+  "dataExt": null
+}

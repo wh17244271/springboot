@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "requestId": null,
+  "time": "2019-11-21 09:45:15",
+  "code": 200,
+  "success": true,
+  "message": "公告通知",
+  "data": {
+    "value": 50,
+    "name": "完成率"
+  }
+}
