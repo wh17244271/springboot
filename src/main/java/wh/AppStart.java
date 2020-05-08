@@ -8,11 +8,13 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 
 @SpringBootApplication
 @ServletComponentScan
 @EnableCaching
+@EnableTransactionManagement
 public class AppStart extends SpringBootServletInitializer {
     public static final Logger logger = LoggerFactory.getLogger(AppStart.class);
 

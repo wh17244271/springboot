@@ -176,6 +176,8 @@
         </dependency>
     </dependencies>
     <build>
+        <finalName>springbootStudent</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

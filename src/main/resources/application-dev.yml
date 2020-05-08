@@ -5,9 +5,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    password: root
-    url: jdbc:mysql://127.0.0.1:3306/wh
+    url: jdbc:mysql://127.0.0.1:3306/test
     username: root
+    password: root
   thymeleaf:
     prefix:  classpath:/templates/
     suffix:  .html
