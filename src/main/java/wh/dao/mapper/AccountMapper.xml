@@ -16,5 +16,9 @@
         where id= #{id,jdbcType=INTEGER}
     </update>
 
+
+    <select id="getConfig" resultType="java.lang.String">
+        select ${test} from dual
+    </select>
 </mapper>
 

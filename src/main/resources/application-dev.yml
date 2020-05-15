@@ -46,6 +46,7 @@ mybatis:
   configuration:
     #打印sql
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
     #空值也返回
     call-setters-on-nulls: true
 

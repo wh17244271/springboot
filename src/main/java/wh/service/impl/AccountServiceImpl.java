@@ -18,4 +18,9 @@ public class AccountServiceImpl implements AccountService {
         int i = 1/0;  // 抛出异常
         accountDao.moveIn(inner, money); //转入
     }
+
+    @Override
+    public String getConfig() {
+        return accountDao.getConfig();
+    }
 }

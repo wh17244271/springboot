@@ -8,4 +8,6 @@ public interface AccountDao {
      void moveIn(@Param("id") int id, @Param("money") float money); // 转入
 
      void moveOut(@Param("id") int id, @Param("money") float money); // 转出
+
+    String getConfig();
 }

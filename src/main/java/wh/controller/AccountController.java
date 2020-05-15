@@ -23,4 +23,11 @@ public class AccountController {
             return "转账失败";
         }
     }
+
+
+    @RequestMapping("/getConfig")
+    public String getConfig(){
+        String config = accountService.getConfig();
+        return config;
+    }
 }
